@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("Guerreiros Z.jpg");
+    z-index: -1; /* optional: keeps it behind other content */
+    filter: blur(5px);
+}
+
+#titulo{background-color: rgba(0, 132, 255, 0.658); margin-left: 200px; margin-right: 200px; 
+    margin-top: 0px; text-align: center;}
+
+    .container{display: none; 
+    flex-direction: row; width: 100vw; height: 500px; justify-content: center; gap: 20px; }
+
+    .descricao {display: none; flex-direction: row; width: 90vw; justify-content: center;  margin: 50px;background-color: goldenrod; text-align: center; font-size: larger; } 
+    
+.container img{ flex: 1 1 auto; object-fit: contain; max-width: 60%; height: 100%;
+   }
+   .butcontain{text-align: center; margin: 20px}
+
+   button{border-radius: 20%; width:200px; height: 40px; background-image: radial-gradient(red, orange, rgb(255, 187, 0)); font-weight: bolder;}
+   
+
+    
