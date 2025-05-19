@@ -23,13 +23,13 @@ html, body {
     .container{display: none; 
     flex-direction: row; width: 100vw; height: 500px; justify-content: center; gap: 20px; }
 
-    .descricao {display: none; flex-direction: row; width: 90vw; justify-content: center;  margin: 50px;background-color: goldenrod; text-align: center; font-size: larger; } 
+    .descricao {display: none; flex-direction: row; width: 90vw; justify-content: center;  margin: 50px;background-color: goldenrod; text-align: center; font-size: x-large; } 
     
 .container img{ flex: 1 1 auto; object-fit: contain; max-width: 60%; height: 100%;
    }
    .butcontain{text-align: center; margin: 20px}
 
-   button{border-radius: 20%; width:200px; height: 40px; background-image: radial-gradient(red, orange, rgb(255, 187, 0)); font-weight: bolder;}
+   button{border-radius: 20%; width:400px; height: 100px; background-image: radial-gradient(red, orange, rgb(255, 187, 0)); font-weight: bolder; font-size: x-large;}
    
 
     
