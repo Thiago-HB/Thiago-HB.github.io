@@ -18,7 +18,7 @@ html, body {
 }
 
 #titulo{background-color: rgba(0, 132, 255, 0.658); margin-left: 200px; margin-right: 200px; 
-    margin-top: 0px; text-align: center;}
+    margin-top: 0px; text-align: center; border: solid black; border-width: 5px}
 
     .container{display: none; 
     flex-direction: row; width: 100vw; height: 500px; justify-content: center; gap: 20px; }
