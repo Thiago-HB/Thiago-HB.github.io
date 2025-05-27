@@ -23,7 +23,7 @@ html, body {
     .container{display: none; 
     flex-direction: row; width: 80vw; height: 400px; justify-content: center; gap: 20px; }
 
-    .descricao {display: none; flex-direction: row; width: 90vw; justify-content: center;  margin: 50px;background-color: goldenrod; text-align: center; font-size: x-large; } 
+    .descricao {display: none; flex-direction: row; width: 90vw; justify-content: center;  margin: 50px; margin-top: 10px; background-color: goldenrod; text-align: center; font-size: x-large; } 
     
 .container img{ flex: 1 1 auto; object-fit: contain; max-width: 60%; height: 100%;
    }
